@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'TESLA';
+    src: url("font/TESLA.ttf") format('truetype');
+}
+@font-face{
+    font-family: 'cybertruck';
+    src: url("font/cybertruck.otf") format('opentype');
+}
+body{
+    margin: 0;
+    font-family:sans-serif;
+}
+#fonthead{
+    font-family: 'TESLA', sans-serif ;
+    letter-spacing: 10px;
+    color:white;
+    font-size: 20px;
+    
+}
+.car1{
+    background-image: url(images/modely.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 700px; 
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.nav{
+    padding: 10px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar div{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.menu{
+    display: none;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}    
+
+.text{
+    color: white;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    
+}
+
+.name{
+    font-size: 68px;
+    display: block;
+
+}
+.explain{
+    font-size: 28px;
+    color: white;
+    display: block;
+}
+.price{
+    font-size: 18px;
+    display: block;
+}
+.buttondiv{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-end;
+}
+.button{
+    background-color: royalblue;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding:10px 100px;
+    margin-right: 20px;
+    border: none;
+}
+.button1{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    padding:10px 100px;
+    border: none;
+}
+.car2{
+    background-image: url(images/model\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+.car3{
+    background-image: url(images/Homepage-Model-X-Desktop-US.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+.car4{
+    background-image: url(images/Homepage-Model-S-Desktop-US.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+.cybertruck{
+    font-family: 'cybertruck';
+    text-transform: uppercase;
+}
+.series{
+    font-family: 'tesla';
+}
+.car5{
+    background-image: url(images/Homepage-Cybertruck-Desktop-v3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+.car6{
+    background-image: url(images/Homepage-SolarPanels-01-Desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+.car7{
+    background-image: url(images/Homepage-SolarRoof-Desktop-US.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+.car8{
+    background-image: url(images/Homepage-Accessories-Desktop-US.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+.car9{
+    background-image: url(images/Homepage-Powerwall-Desktop-US.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+.footer{
+    background-color: black;
+}
+.footertext{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: smaller;
+    padding: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:820px) {
+    .items{
+        display:none;
+    }
+    .menu{
+        display: inline;
+        color: white;
+        padding: 5px;
+        background-color:rgba(62,106,225,0.3);
+  }
+
+
+
+  @media screen and (max-width:534px){
+    .car1{
+        background-image: url(images/modelym.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 534px;
+        height: 700px;
+    }
+    .car2, .car3 , .car4 , .car5 , .car6 ,.car7,.car8,.car9,.footer{
+        width: 534px;
+    }
+  }
+
+}
